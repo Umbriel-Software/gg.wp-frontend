@@ -1,5 +1,13 @@
 import React from 'react';
 
-const App: React.FC = () => <h1>GG.WP</h1>;
+import GlobalStyle from './styles/global';
+import Dashboard from './pages/Dashboard';
+
+const App: React.FC = () => (
+  <>
+    <GlobalStyle />
+    <Dashboard />
+  </>
+);
 
 export default App;
