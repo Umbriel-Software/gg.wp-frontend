@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdLiveTv } from 'react-icons/md';
 
 import { Container, Content, Background, Form, SummonerInfo } from './styles';
 
@@ -20,7 +21,6 @@ const Dashboard: React.FC = () => {
           <SummonerInfo>
             <a href="teste">
               <img src={icone} alt="icone" />
-
               <div>
                 <strong>yHurry</strong>
                 <section>
@@ -28,6 +28,8 @@ const Dashboard: React.FC = () => {
                   <img src={roleTop} alt="" />
                 </section>
               </div>
+
+              <MdLiveTv size={25} title="Em partida" />
             </a>
           </SummonerInfo>
         </Content>
