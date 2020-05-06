@@ -10,18 +10,17 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   width: 100%;
-  max-width: 750px;
+  max-width: 720px;
 
   display: flex;
   flex-direction: column;
   place-content: flex-start;
   align-items: flex-start;
 
-  padding: 10px 50px;
+  padding: 10px 30px;
 
   img {
     width: 90px;
-    height: 60px;
   }
 `;
 
@@ -131,6 +130,7 @@ export const SummonerInfo = styled.div`
 
     svg {
       margin-left: auto;
+      color: #604ca8;
     }
   }
 `;
